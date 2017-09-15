@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="visitshop"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.example.shaw.myvisitshop.bean.User" />
+        <mapping class="com.example.shaw.myvisitshop.bean.AnnImgs" />
+        <mapping class="com.example.shaw.myvisitshop.bean.InfoResultBody" />
+        <mapping class="com.example.shaw.myvisitshop.bean.TaskBody" />
+        <mapping class="com.example.shaw.myvisitshop.bean.DateList"/>
+    </list>
+</litepal>

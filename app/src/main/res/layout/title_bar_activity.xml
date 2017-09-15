@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:background="@color/colorAccent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/title_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/title_bar_back"
+        android:gravity="center"
+        android:paddingBottom="13dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="4dp"
+        android:paddingTop="13dp" />
+
+    <TextView
+        android:id="@+id/title_bar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/title_bar_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="11dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="27dp"
+        android:paddingTop="11dp"
+        android:src="@drawable/title_bar_add"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/title_bar_save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="12dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="12dp"
+        android:src="@drawable/title_bar_save"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/title_bar_change"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/title_bar_more"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/title_bar_histroy"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
